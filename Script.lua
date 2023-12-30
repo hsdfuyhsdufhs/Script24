@@ -7,7 +7,7 @@ if LoadScreen == nil then
 LoadScreen = true
 end
 if LoadScreen == true then 
-    loadstring(game:HttpGet(""))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hsdfuyhsdufhs/loadingscreen/main/loadingscreen"))()
 end
 -- Script:
 -- VARIABLES
